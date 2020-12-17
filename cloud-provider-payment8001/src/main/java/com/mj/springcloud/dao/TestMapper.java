@@ -1,4 +1,4 @@
-package com.mj.springcloud.mapper;
+package com.mj.springcloud.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 
