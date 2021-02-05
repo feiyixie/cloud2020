@@ -10,6 +10,10 @@
     <!-- packaging pom 总工程-->
     <modules>
         <module>cloud-provider-payment8001</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-eureka-server7001</module>
+        <module>cloud-eureka-server7002</module>
+        <module>cloud-provider-payment8002</module>
     </modules>
     <!--统一管理jar包版本-->
     <properties>
@@ -85,7 +89,7 @@
                 <artifactId>log4j</artifactId>
                 <version>${log4j.version}</version>
             </dependency>
-        </dependencies>
+        </dependencies><!---->
     </dependencyManagement>
     <!--热启动插件-->
     <build>
